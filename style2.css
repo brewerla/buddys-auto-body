@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* ############### Styles For The Home Page ##############  */
+
+/*===================== Hero Banner =================== */
+.theHeroBanner{
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/heroBanner.jpg");
+
+}
