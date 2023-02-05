@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
+.main-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
 h1, h2 {
     color: #F3EFE0;
+    font-family: Impact, sans-serif;
 }
 
 p {
     color: #F3EFE0;
+    font-family: -apple-system, sans-serif;
 }
 
 a {
@@ -27,6 +34,24 @@ a:hover {
 
 /* ===================== NAVBAR ===================== */
 
+nav {
+    background-color: #222;
+}
+
+nav > div {
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
 
 /* ############### Styles For The Home Page ##############  */
 
@@ -39,15 +64,48 @@ a:hover {
 
 }
 
-nav {
-    padding: 20px 10%;
+
+
+/* ###################### SERVICES PAGE ###################### */
+
+/* ====================== IMAGE BANNER ====================== */
+.service-section {
+    margin-top: 25px;
+}
+.service-section_banner {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #222;
+    border-radius: 5px;
+}
+.service-section_banner h2 {
+    font-size: 4em;
+    text-shadow: 2px -2px 10px rgba(0, 0, 0, 0.45);
 }
 
-nav .nav-links {
+.service-section > #tire-section {
+    background-image: url("images/tire-image.jpg");
+    background-position: 50% 25%;
+}
+.service-section > #general-section {
+    background-image: url("images/general-service-image.jpg");
+}
+
+.service-section > #windshield-section {
+    background-image: url("images/windshield.jpg");
+}
+
+/* ====================== SERVICE CARDS ====================== */
+.service-section .service-section_cards {
     display: flex;
-    gap: 20px;
+    gap: ;
+}
+.service-section .service-section_cards .service-section_cards_card {
+    flex: 1 1 0;
+    background-color: #222;
+    text-align: center;
 }
