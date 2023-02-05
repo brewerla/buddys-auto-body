@@ -1,9 +1,15 @@
-h1 {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+h1 {
+    color: #F3EFE0;
 }
 
 p {
-
+    color: #F3EFE0;
 }
 
 /* ===================== NAVBAR ===================== */
@@ -17,5 +23,17 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("images/heroBanner.jpg");
+
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+}
+
+nav .nav-links {
 
 }
