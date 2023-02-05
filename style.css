@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2 {
     color: #F3EFE0;
 }
 
@@ -12,10 +12,23 @@ p {
     color: #F3EFE0;
 }
 
+a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: #F3EFE0;
+
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    border-bottom-color: #EB9100;
+    color: #EB9100;
+}
+
 /* ===================== NAVBAR ===================== */
 
 nav {
-    padding: 20px;
+    padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,5 +36,6 @@ nav {
 }
 
 nav .nav-links {
-
+    display: flex;
+    gap: 20px;
 }
